@@ -8,11 +8,11 @@ let s:cpo_save = &cpo
 set cpo&vim
 
 syn keyword SoodBoolean     true false
-syn keyword SoodStatement   is a an and called of with
-syn keyword SoodKeyword     value type default return arguments
-syn keyword SoodConditional if while until else equal less more
-syn keyword SoodSpecial     not negative than to 
-syn keyword SoodOperator    plus minus multiplied divided by
+syn keyword SoodStatement   a an and called of with
+syn keyword SoodKeyword     statements value type default return arguments argument no as
+syn keyword SoodConditional if while until else equal less more also alternatively read write
+syn keyword SoodSpecial     not negative than to is from
+syn keyword SoodOperator    modulo plus minus multiplied divided by
 syn keyword SoodType        integer boolean string float function
 
 syn match SoodGrammatic "[,.;:]"
