@@ -9,7 +9,7 @@ set cpo&vim
 
 syn keyword SoodBoolean     true false
 syn keyword SoodStatement   a an and called of with
-syn keyword SoodKeyword     statements value type default return arguments argument no as
+syn keyword SoodKeyword     the statement statements value type default return arguments argument no as
 syn keyword SoodConditional if while until else equal less more also alternatively read write
 syn keyword SoodSpecial     not negative than to is from
 syn keyword SoodOperator    modulo plus minus multiplied divided by
