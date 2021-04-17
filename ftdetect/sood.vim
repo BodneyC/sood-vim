@@ -1,2 +1,2 @@
-autocmd BufNewFile,BufRead *.sood setfiletype=sood
-autocmd BufNewFile,BufRead *.sood.ast setfiletype=sood-ast
+autocmd BufNewFile,BufRead *.sood set filetype=sood
+autocmd BufNewFile,BufRead *.sood.ast set filetype=sood-ast
